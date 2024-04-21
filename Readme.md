@@ -1,2 +1,0 @@
-hello
-noice boy
