@@ -1,9 +1,11 @@
 import React from 'react'
-
-const App = () => {
+import navbar from './components/navbar'
+import banner from './components/banner'
+function App() {
   return (
     <div>
-      APP
+      <navbar/>
+      <banner/>
     </div>
   )
 }
