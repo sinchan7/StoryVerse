@@ -1,0 +1,26 @@
+{
+  "name": "storyverse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThisIsHD/StoryVerse.git"
+  },
+  "author": "vat project team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThisIsHD/StoryVerse/issues"
+  },
+  "homepage": "https://github.com/ThisIsHD/StoryVerse#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
