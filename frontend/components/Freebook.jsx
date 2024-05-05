@@ -3,6 +3,7 @@ import  list  from "../public/list.json"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Cards from './Cards';
 
 
 function Freebook() {
@@ -11,8 +12,8 @@ function Freebook() {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         responsive: [
           {
@@ -39,17 +40,25 @@ function Freebook() {
               slidesToScroll: 1
             }
           },
-        },
-    ],
-};     
-    
+        ]
+      };
+
   return (
       <>
-    <div>
-        <h1>Free offered books</h1>
+      
+      <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
+      <div>
+        <h1 className='font-bold text-xl pb-2'>Free offered books</h1>
+        <p>Enjoy a wide range of free books!</p>
         </div>
+      
+        <div>
+        <Slider {...settings}>
+        {filterData.map((item)=>(<Cards item={item} key={item.id}/>))}
+      </Slider>
+    </div>
+    </div> 
         </>
   )
 }
-
 export default Freebook;
