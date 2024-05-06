@@ -12,16 +12,16 @@
         "id":2,
         "name":"Comedy Book",
         "title":"abcd",
-        "price":20,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
     },
     {
         "id":3,
-        "name":"Recipee Book",
+        "name":"Recipe Book",
         "title":"abcd",
-        "price":10,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
@@ -30,7 +30,7 @@
         "id":4,
         "name":"Abcd Book",
         "title":"abcd",
-        "price":10,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
@@ -39,7 +39,7 @@
         "id":5,
         "name":"Fashion Book",
         "title":"abcd",
-        "price":20,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
@@ -48,7 +48,7 @@
         "id":6,
         "name":"Working Book",
         "title":"abcd",
-        "price":10,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
@@ -57,7 +57,7 @@
         "id":7,
         "name":"Poem Book",
         "title":"abcd",
-        "price":20,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
@@ -66,7 +66,7 @@
         "id":8,
         "name":"Nursery Book",
         "title":"abcd",
-        "price":10,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
@@ -75,7 +75,7 @@
         "id":9,
         "name":"Motivational Book",
         "title":"abcd",
-        "price":20,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
@@ -84,7 +84,7 @@
         "id":10,
         "name":"Sports Book",
         "title":"abcd",
-        "price":10,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 
@@ -93,7 +93,7 @@
         "id":11,
         "name":"Rhyme Book",
         "title":"abcd",
-        "price":20,
+        "price":0,
         "category":"free",
         "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?t=st=1714759079~exp=1714762679~hmac=709e5250f63c2f0101a60db62fa214441479215193da901526e67c53fc7a5d46&w=740"
 

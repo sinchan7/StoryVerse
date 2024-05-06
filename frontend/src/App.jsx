@@ -13,7 +13,7 @@ function App() {
       <Route path="/Bestsellers" element={<Bestsellers/>}/>
     </Routes>
     </>
-  )
+ )
 }
 
 export default App
