@@ -15,7 +15,7 @@ function Bestsellers() {
         <button className='-mt-6 bg-pink-500'>
           back
         </button>
-        <div>
+        <div className='mt-12 grid-cols-1 md:grid-cols-4'>
           {
             list.map((item)=>(
               <Cards key={item.id} item={item}/>
