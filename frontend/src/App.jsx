@@ -1,20 +1,19 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Banner from '../components/Banner'
-import Freebook from '../components/Freebook'
-
+import Home from '../home/Home'
+import Bestsellers from '../components/Bestsellers'
+import {Route,Routes} from "react-dom"
 
 function App() {
-  return ( <>
-  <Navbar/>
-  <Banner/>
-  <Freebook/>
-  <Footer/>
-  
-  </>
-    
-  )
+  return (
+    <>
+    {/*<Home/>
+    <Bestsellers/>*/}
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/Bestsellers" element={<Bestsellers/>}/>
+    </Routes>
+    </>
+ )
 }
 
 export default App

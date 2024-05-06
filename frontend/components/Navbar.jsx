@@ -30,7 +30,7 @@ function Navbar() {
         <a>Home</a>
         </li>
         <li>
-        <a>Course</a>
+        <a>Bestsellers</a>
         </li>
         <li>
         <a>Contact</a>
