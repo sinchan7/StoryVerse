@@ -15,7 +15,7 @@ function Bestsellers() {
       }
     }
     getBook();
-  },[])
+  },[]);
   return (
     <>
     <div className='max-w-screen-2x1 container mx-auto md:px-20 px-4'>
