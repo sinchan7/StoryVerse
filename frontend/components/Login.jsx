@@ -10,10 +10,22 @@ function Login() {
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <h3 className="font-bold text-lg">Login</h3>
-    <div>
+    <div className='mt-4 space-y-2'>
         <span>Email</span>
         <br/>
-        <input type='email' placeholder='Enter Your Email' className=''/>
+        <input type='email' placeholder='Enter Your Email' className='w-00 px-7 py-1 border rounded-md outline-none'/>
+    </div>
+    {/*Password*/}
+    <div className='mt-4 space-y-2'>
+        <span>Password</span>
+        <br/>
+        <input type='password' placeholder='Enter Your Password' className='w-00 px-7 py-1 border rounded-md outline-none'/>
+    </div>
+    {/*Button*/}
+    <div className='flex justify-around mt-4'>
+      <button className='bg-blue-500 text-white rounded-md px-5 py-1.5 hover:bg-blue-700 duration-200'>Login</button>
+        <p>Not registered!? <span className='underline text-blue-500 cursor-pointer'>Signup</span></p>
+      
     </div>
       </div>
      </dialog>
