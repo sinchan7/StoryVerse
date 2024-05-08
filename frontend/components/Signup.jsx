@@ -1,10 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Login from './Login'
-
 function Signup() {
   return (
     <>
-      <div className='flex h-screen items-center justify-center '>
+     <div className='flex h-screen items-center justify-center '>
       <div className="w-[600px] ">
   <div className="modal-box">
     <form method="dialog">
@@ -28,11 +28,12 @@ function Signup() {
         <br/>
         <input type='password' placeholder='Enter Your Password' className='w-00 px-7 py-1 border rounded-md outline-none'/>
     </div>
+       
     {/*Button*/}
     <div className='flex justify-around mt-4'>
       <button className='bg-blue-500 text-white rounded-md px-5 py-1.5 hover:bg-blue-700 duration-200'>Signup</button>
         <p className='text-xl'>Have Account? <button className='underline text-blue-500 cursor-pointer' onClick={()=> document.getElementById("my_modal_3").showModal()}>
-        Login</button>{" "}
+         Login</button>{" "}
         <Login/>
         </p>
       
