@@ -40,10 +40,10 @@ function Navbar() {
         <a href='/Bestsellers'>Bestsellers</a>
         </li>
         <li>
-        <a>Contact</a>
+        <a href='Contact'>Contact</a>
         </li>
         <li>
-        <a>About</a>
+        <a href='About'>About</a>
         </li>
       
     </ul>

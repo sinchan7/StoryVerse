@@ -5,6 +5,8 @@ import Bestsellers from '../components/Bestsellers'
 import Signup from '../components/Signup'
 import { Toaster } from 'react-hot-toast'
 import { useAuth } from './context/AuthProvider'
+import About from '../components/About'
+import Contact from '../components/Contact'
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/Bestsellers" element={authUser?<Bestsellers/>:<Navigate to="/signup"/>} />
       <Route path="/Signup" element={<Signup/>}/>
+      <Route path="/About" element={<About/>}/>
+      <Route path="/Contact" element={<Contact/>}/>
       </Routes>
       <Toaster />
     </>

@@ -20,7 +20,7 @@ function Banner() {
   <button className="btn mt-6 btn-primary">Submit</button>
     </div>
     <div className='order-1 w-full md:w-1/2'>
-      <img src={banner} className='w-100 h-400 pl-20 mt-20' alt=''/>
+      <img src={banner} className='w-100 h-125 pl-20 mb-20 mt-36 ml-35' alt=''/>
     </div>
     </div>
     </>
